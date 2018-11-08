@@ -1,3 +1,5 @@
+/* Main */
+
 body {
   margin: 0 20wv 0 0;
   background-color: #d6d3f0 !important;
@@ -15,22 +17,47 @@ body {
   background-color: #854442;
 }
 
-.sidebar li {
+.sidebar ul {
   font: 2.5vw 'Creepster', cursive;
-  list-style: none;
+  list-style-type: none;
+  text-align: center;
+  padding-left:0px;
   color: #d6d3f0;
   text-shadow: -1px 1px #be9b7b;
+}
+
+.sidebar a, a:visited, a:link, a:active {
+  cursor: pointer;
+  color: #d6d3f0;
+  text-decoration: none !important;
+}
+
+.sidebar a:hover {
+color: #be9b7b;
+text-shadow: -1px 1px 1px #4b3832;
+text-decoration: none;
 }
 
 .sidebar img {
   width: 10vw;
   margin: 7.5vh 0 7.5vh 0;
   border-radius: 50%;
+  box-shadow: -2px -2px 5px #4b3832;
 }
 
 .content {
   margin: 0 0 0 20vw;
 }
+
+footer {
+  left: 0;
+  bottom: 0;
+  color: #4b3832;
+}
+
+/* Main ends here */
+
+/* About me page */
 
 .content p {
   font: 1.8vw 'Averia Serif Libre', cursive;
@@ -43,5 +70,19 @@ body {
   font: 5vw 'Creepster', cursive;
   text-align: center;
   color: #854442;
-  text-shadow: -1px 1px #be9b7b;#4b3832
+  text-shadow: -1px 1px #be9b7b;
+}
+
+.content h4 {
+  font: 2vw 'Creepster', cursive;
+  text-align: center;
+  margin-top: 0;
+  color: #854442;
+  text-shadow: -1px 1px #be9b7b;
+}
+
+.icones a {
+font-size: 3vw;
+color: #854442 !important;
+text-shadow: -1px 1px 3px #be9b7b;
 }

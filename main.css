@@ -1,8 +1,33 @@
 /* Main */
+@font-face {
+  font-family: 'Creepster';
+  font-style: normal;
+  font-display: block;
+  font-weight: 400;
+  src: local('Creepster'), 
+    url('fonts/Creepster-Regular.woff') format('woff'),
+    url('fonts/Creepster-Regular.woff2') format('woff2'), 
+    url('fonts/Creepster-Regular.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Averia Serif Libre';
+  font-style: normal;
+  font-display: block;
+  font-weight: 400;
+  src: local('Averia Serif Libre'), 
+    url('fonts/AveriaSerifLibre-Regular.woff') format('woff'),
+    url('fonts/AveriaSerifLibre-Regular.woff2') format('woff2'), 
+    url('fonts/AveriaSerifLibre-Regular.ttf') format('truetype');
+}
 
 body {
   margin: 0 20wv 0 0;
   background-color: #d6d3f0 !important;
+}
+
+.menubutton {
+  visibility: hidden;
 }
 
 .sidebar {
@@ -89,23 +114,35 @@ text-shadow: -1px 1px 3px #be9b7b;
     background-color: #d6d3f0 !important;
   }
 
+  .menubutton {
+    font-size: 10vw;
+    color: #d6d3f0 !important;
+    position: fixed;
+    margin: 1vw 3vw;
+    visibility: visible;
+  }
+
   .sidebar {
-  height: 15vw;
+  height: 16vw;
   width: 100vw;
   }
 
+  .sidebar nav {
+    position: fixed;
+    margin-top: 16vw;
+    visibility: collapse;
+  }
+
   .sidebar ul {
-    color: #be9b7b;
-    font-size: 4vw;
-    list-style-type: none;
-    position: inherit;
-    width: 80vw;
-    margin: 5vw 10vw 0vw 10vw;
+    font-size: 10vw;
+    position: absolute;
+    width: 100vw;
+    background: #4b3832;
   }
 
   .sidebar li {
-    display: inline-table;
-    width: 20vw;
+    margin: 5vw;
+    display: block;
   }
 
   #foto {
@@ -113,7 +150,7 @@ text-shadow: -1px 1px 3px #be9b7b;
   }
 
   .content {
-  margin: 18vw 5vw 0 5vw;
+  margin: 19vw 5vw 0 5vw;
 }
 
 .content h1 {

@@ -1,34 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Meicle Haiara">
-    <meta name="keywords" content="HTML,CSS,Javascript,Rails,Web Development,Developer, Dev">
-    <link rel="stylesheet" href="main.css">
-    <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Meicle" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script src="loadpages.js"></script> 
-    <title>Meicle</title>
-  </head>
-  <body>
-    <aside id="sidebar" class="sidebar">
-      <a title="Index link"><img alt="Me with black rounded glasses and red hair with bangs." id="foto" src="mei.jpeg"></a>
-      
-      <a href="#" class="menubutton" title="Menu button"><i class="fas fa-bars"></i></a>
-
-        <nav>
-          <ul>
-            <a id="aboutme" title="About me page"><li>About Me</li></a>
-            <a id="skills" title="Skills page"><li>Skills</li></a>
-            <a id="experience" title="Experience page"><li>Experience</li></a>
-          </ul>
-        </nav>
-    </aside>
-    <div class="content" id="content">
-    </div>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Meicle's portfolio">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Meicle Haiara">
+  <meta name="keywords" content="HTML,CSS,Javascript,Rails,Web Development,Developer, Dev">
+  <link rel="icon" href="icone.png">
+  <link rel="stylesheet" href="main.css">
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Meicle" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <title>Meicle</title>
+</head>
+<body>
+  <aside id="sidebar" class="sidebar">
+    <a title="Index link"><img alt="Me with black rounded glasses and red hair with bangs." id="foto" src="mei.jpg"></a>
+    
+    <a href="#" class="menubutton" title="Menu button"><i class="fas fa-bars"></i></a>
+    
+    <nav class="list">
+      <ul>
+        <li id="aboutme" class="item" title="About me page"><a>About Me</a></li>
+        <li id="skills" class="item" title="Skills page"><a>Skills</a></li>
+        <li id="experience" class="item" title="Experience page"><a>Experience</a></li>
+      </ul>
+    </nav>
+  </aside>
+  <div class="content" id="content">
+  </div>
+  <script src="loadpages.js"></script> 
+</body>
 </html>

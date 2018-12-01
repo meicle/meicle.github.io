@@ -12,11 +12,31 @@ $(function(){
   $( "#experience" ).click(function() {
     $('#content').load('experience.html');
   });
+  
   $( ".item" ).click(function() {
-    sidebarlist.hide();
+    if ($( window ).width() < 600) {
+      sidebarlist.hide();
+    }
   });
+  
   $( ".menubutton" ).click(function() {
-    sidebarlist.toggle();
+    if ($( window ).width() < 600) {
+      sidebarlist.toggle();
+    }
+  });
+  
+  $(window).resize(function(){
+    
+    var width = $(window).width();
+    
+    if (width > 600){
+      
+      sidebarlist.show();
+      
+    }else{
+      sidebarlist.hide();
+    }
+    
   });
 }
 );

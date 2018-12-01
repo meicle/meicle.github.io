@@ -127,6 +127,10 @@ body {
     width: 100vw;
   }
   
+  .active {
+    display: block;
+  }
+
   .list {
     position: fixed;
     margin-top: 16vw;

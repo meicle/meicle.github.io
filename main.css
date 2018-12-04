@@ -23,11 +23,12 @@
 
 body {
   margin: 0 20wv 0 0;
-  background-color: #d6d3f0 !important;
+  background-color: #d6d3f0;
 }
 
 .menubutton {
   visibility: hidden;
+  cursor: unset;
 }
 
 .sidebar {
@@ -43,10 +44,12 @@ body {
 }
 
 .sidebar ul {
-  font: 2.5vw 'Creepster', cursive;
+  font: 3vw 'Creepster', cursive;
+  position: static;
   list-style-type: none;
   text-align: center;
-  padding-left:0px;
+  padding:0;
+  margin: 0;
   color: #d6d3f0;
   text-shadow: -1px 1px #be9b7b;
 }
@@ -78,6 +81,22 @@ body {
 
 /* About me page */
 
+.content > h1 {
+  font: 5vw 'Creepster', cursive;
+  text-align: center;
+  color: #854442;
+  margin: 1vw 0 1vw 0;
+  text-shadow: -1px 1px #be9b7b;
+}
+
+.content > h4 {
+  font: 2vw 'Creepster', cursive;
+  text-align: center;
+  margin: 0;
+  color: #854442;
+  text-shadow: -1px 1px #be9b7b;
+}
+
 .content p {
   font: 1.8vw 'Averia Serif Libre', cursive;
   color: #4b3832;
@@ -85,25 +104,29 @@ body {
   padding: 0 5vw 0 5vw;
 }
 
-.content h1 {
-  font: 5vw 'Creepster', cursive;
-  text-align: center;
+.icones {
   color: #854442;
-  text-shadow: -1px 1px #be9b7b;
-}
-
-.content h4 {
-  font: 2vw 'Creepster', cursive;
-  text-align: center;
-  margin-top: 0;
-  color: #854442;
-  text-shadow: -1px 1px #be9b7b;
-}
-
-.icones a {
-  font-size: 3vw;
-  color: #854442 !important;
   text-shadow: -1px 1px 3px #be9b7b;
+  text-align: center;
+  font-size: 4vw;
+}
+
+.icones > a {
+  color: #854442;
+}
+
+/* Skills page */
+
+.skills {
+  font-size: 6vw;
+  text-align: center;
+  color: #4b3832;
+  cursor: default;
+}
+
+.skills i:hover {
+  text-shadow:  -1px 1px 3px #be9b7b;
+  color: #854442;
 }
 
 /* MOBILE DEVICES */
@@ -118,13 +141,15 @@ body {
     font-size: 10vw;
     color: #d6d3f0 !important;
     position: fixed;
-    margin: 1vw 3vw;
+    margin: 2.5vw 3vw;
     visibility: visible;
   }
   
   .sidebar {
     height: 16vw;
     width: 100vw;
+    opacity: 1;
+    z-index: 30;
   }
   
   .active {
@@ -141,12 +166,17 @@ body {
     font-size: 10vw;
     position: absolute;
     width: 100vw;
-    background: #4b3832;
+    background: #995654;
   }
-  
+
   .sidebar li {
     margin: 5vw;
     display: block;
+  }
+
+  .sidebar ul li a:hover {
+    color: #662a28 !important;
+    text-shadow: -1px 1px 3px #854442; 
   }
   
   #foto {
@@ -156,22 +186,33 @@ body {
   .content {
     margin: 19vw 5vw 0 5vw;
   }
-  
+
+  .opaque-content {
+    opacity: 0.2;
+    transition: opacity 100ms ease-in-out;
+ }
+
   .content h1 {
-    font-size: 10vw;
+    font-size: 13vw;
   }
   
   .content h4 {
-    font-size: 6vw;
+    font-size: 8vw;
   }
   
   .content p {
-    font-size: 5vw;
+    font-size: 6vw;
     text-align: justify;
     margin: 0;
   }
   
-  .icones a {
-    font-size: 10vw;
+  .icones {
+    margin: 3vw 0 0 0;
+    font-size: 13vw;
+  }
+
+  .skills {
+    font-size: 15vw;
+    margin: 4vw 2vw 0 2vw;
   }
 }

@@ -1,5 +1,6 @@
 $(function(){
   var sidebarlist = $(".list");
+  var content = $("#content");
   
   $('#content').load('aboutme.html');
   
@@ -16,12 +17,14 @@ $(function(){
   $( ".item" ).click(function() {
     if ($( window ).width() < 600) {
       sidebarlist.hide();
+      content.toggleClass('opaque-content');
     }
   });
   
   $( ".menubutton" ).click(function() {
     if ($( window ).width() < 600) {
       sidebarlist.toggle();
+      content.toggleClass('opaque-content');
     }
   });
   

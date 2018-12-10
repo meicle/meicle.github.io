@@ -1,0 +1,45 @@
+@import 'fonts';
+@import 'colors';
+
+.content {
+    margin: 0 0 0 20vw;
+    
+    h1 {
+        font: 5vw $main-font;
+        text-align: center;
+        color: $vermelho;
+        margin: 1vw 0 1vw 0;
+        text-shadow: -1px 1px $bege;
+    }
+    
+    h4 {
+        font: 2vw $main-font;
+        text-align: center;
+        margin: 0;
+        color: $vermelho;
+        text-shadow: -1px 1px $bege;
+    }
+    
+    p {
+        font: 1.8vw $secondary-font;
+        color: $marrom;
+        padding: 0 5vw 0 5vw;
+        text-align: justify;
+    }
+    
+    .icones {
+        color: $vermelho;
+        text-shadow: -1px 1px 3px $bege;
+        text-align: center;
+        font-size: 4vw;
+        
+        a {
+            color: $vermelho;
+        }
+    }
+    
+    .center_p {
+        text-align: center;
+    }
+}
+

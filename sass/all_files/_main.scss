@@ -1,0 +1,59 @@
+@import 'fonts';
+@import 'colors';
+
+body {
+    margin: 0 20wv 0 0;
+    background-color: $cinza;
+    
+    .sidebar {
+        text-align: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        width: 20vw;
+        height: 100vh;
+        background-color: $vinho;
+        
+        ul {
+            font: 3vw $main-font;
+            position: static;
+            list-style-type: none;
+            text-align: center;
+            padding:0;
+            margin: 0;
+            color: $cinza;
+            text-shadow: -1px 1px $bege;
+        }
+        
+        li {
+            cursor:pointer;
+            pointer-events: auto;
+            
+            a {
+                &:active, &:link, &:visited{
+                    color: $cinza;
+                    text-decoration: none;
+                }
+                
+                &:hover {
+                    color: $bege;
+                    text-shadow: -1px 1px 1px $marrom;
+                    text-decoration: none;
+                }
+            }
+        }
+        
+        img {
+            width: 10vw;
+            margin: 7.5vh 0 7.5vh 0;
+            border-radius: 50%;
+            box-shadow: -2px -2px 5px $marrom;
+        }
+    }
+    .menubutton {
+        visibility: hidden;
+        cursor: unset;
+    }
+}

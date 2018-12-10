@@ -168,8 +168,7 @@ body {
       body .sidebar #foto {
         visibility: hidden; }
     body .content {
-      margin: 19vw 5vw 0 5vw;
-      text-align: justify; }
+      margin: 19vw 5vw 0 5vw; }
       body .content h1 {
         font-size: 13vw; }
       body .content h4 {

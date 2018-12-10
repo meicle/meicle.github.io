@@ -177,6 +177,8 @@ body {
       body .content p {
         font-size: 6vw;
         margin: 0; }
+      body .content .center_p {
+        text-align: justify; }
       body .content .icones {
         margin: 3vw 0 0 0;
         font-size: 13vw; }

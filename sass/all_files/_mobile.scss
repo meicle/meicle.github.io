@@ -1,7 +1,7 @@
 @media only screen and (max-width: 600px) {
     body {
         margin: 0;
-        background-color: $cinza;
+        background-color: $cinza_escuro;
         
         .sidebar {
             height: 16vw;
@@ -21,7 +21,7 @@
                 font-size: 10vw;
                 position: absolute;
                 width: 100vw;
-                background: $salmao;
+                background: $preto;
             }
             
             li {
@@ -31,7 +31,7 @@
                 a {
                     &:hover {
                         color: $vinho;
-                        text-shadow: -1px 1px 3px $vermelho;     
+                        text-shadow: -1px 1px 3px $vinho;     
                     }
                 }
             }

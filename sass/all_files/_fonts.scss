@@ -11,6 +11,10 @@
 
 @include font-face('Creepster', '../fonts/Creepster-Regular');
 @include font-face('Averia Libre','../fonts/AveriaSerifLibre-Regular');
+@include font-face('Star Jedi','../fonts/Starjedi');
+@include font-face('Staatliches Regular','../fonts/Staatliches-Regular');
 
 $main-font: quote('Creepster');
 $secondary-font: quote('Averia Libre');
+$star-wars: quote('Star Jedi');
+$p-font: quote('Staatliches Regular')

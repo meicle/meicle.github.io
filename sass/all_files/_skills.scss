@@ -4,14 +4,14 @@
 .skills {
     font-size: 6vw;
     text-align: center;
-    color: $marrom;
+    color: $cinza;
     cursor: default;
     
     i {
         
         &:hover {
-            text-shadow:  -1px 1px 3px $bege;
-            color: $vinho;
+            text-shadow:  -1px 1px 5px $preto;
+            color: $cinza_medio;
         }
         
     }

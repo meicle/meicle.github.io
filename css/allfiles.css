@@ -12,32 +12,45 @@
   font-style: normal;
   font-display: block; }
 
+@font-face {
+  font-family: "Star Jedi";
+  src: url("../fonts/Starjedi.woff") format("woff"), url("../fonts/Starjedi.woff2") format("woff2"), url("../fonts/Starjedi.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block; }
+
+@font-face {
+  font-family: "Staatliches Regular";
+  src: url("../fonts/Staatliches-Regular.woff") format("woff"), url("../fonts/Staatliches-Regular.woff2") format("woff2"), url("../fonts/Staatliches-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block; }
+
 .content {
   margin: 0 0 0 20vw; }
   .content h1 {
-    font: 5vw "Creepster";
+    font: 5vw "Star Jedi";
     text-align: center;
-    color: #854442;
+    color: #232323;
     margin: 1vw 0 1vw 0;
-    text-shadow: -1px 1px #be9b7b; }
+    text-shadow: -1px 1px 10px #6b6a6a; }
   .content h4 {
-    font: 2vw "Creepster";
+    font: 2vw "Star Jedi";
     text-align: center;
     margin: 0;
-    color: #854442;
-    text-shadow: -1px 1px #be9b7b; }
+    color: #232323;
+    text-shadow: -1px 1px 10px #6b6a6a; }
   .content p {
-    font: 1.8vw "Averia Libre";
-    color: #4b3832;
+    font: 1.8vw "Staatliches Regular";
+    color: #a8a6a6;
     padding: 0 5vw 0 5vw;
     text-align: justify; }
   .content .icones {
-    color: #854442;
-    text-shadow: -1px 1px 3px #be9b7b;
+    text-shadow: -1px 1px 10px #6b6a6a;
     text-align: center;
     font-size: 4vw; }
     .content .icones a {
-      color: #854442; }
+      color: #232323; }
   .content .center_p {
     text-align: center; }
 
@@ -56,6 +69,20 @@
   font-display: block; }
 
 @font-face {
+  font-family: "Star Jedi";
+  src: url("../fonts/Starjedi.woff") format("woff"), url("../fonts/Starjedi.woff2") format("woff2"), url("../fonts/Starjedi.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block; }
+
+@font-face {
+  font-family: "Staatliches Regular";
+  src: url("../fonts/Staatliches-Regular.woff") format("woff"), url("../fonts/Staatliches-Regular.woff2") format("woff2"), url("../fonts/Staatliches-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block; }
+
+@font-face {
   font-family: "Creepster";
   src: url("../fonts/Creepster-Regular.woff") format("woff"), url("../fonts/Creepster-Regular.woff2") format("woff2"), url("../fonts/Creepster-Regular.ttf") format("truetype");
   font-weight: normal;
@@ -69,9 +96,23 @@
   font-style: normal;
   font-display: block; }
 
+@font-face {
+  font-family: "Star Jedi";
+  src: url("../fonts/Starjedi.woff") format("woff"), url("../fonts/Starjedi.woff2") format("woff2"), url("../fonts/Starjedi.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block; }
+
+@font-face {
+  font-family: "Staatliches Regular";
+  src: url("../fonts/Staatliches-Regular.woff") format("woff"), url("../fonts/Staatliches-Regular.woff2") format("woff2"), url("../fonts/Staatliches-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block; }
+
 body {
   margin: 0 20wv 0 0;
-  background-color: #d6d3f0; }
+  background-color: #424242; }
   body .sidebar {
     text-align: center;
     position: fixed;
@@ -81,31 +122,33 @@ body {
     flex-direction: column;
     width: 20vw;
     height: 100vh;
-    background-color: #662a28; }
+    background-image: url("../images/darksky.png");
+    background-repeat: repeat;
+    box-shadow: 0 0 50px 0 #000000; }
     body .sidebar ul {
-      font: 3vw "Creepster";
+      font: 2vw "Star Jedi";
       position: static;
       list-style-type: none;
       text-align: center;
       padding: 0;
       margin: 0;
-      color: #d6d3f0;
-      text-shadow: -1px 1px #be9b7b; }
+      color: #a8a6a6;
+      text-shadow: -1px 1px #424242; }
     body .sidebar li {
       cursor: pointer;
       pointer-events: auto; }
       body .sidebar li a:active, body .sidebar li a:link, body .sidebar li a:visited {
-        color: #d6d3f0;
+        color: #a8a6a6;
         text-decoration: none; }
       body .sidebar li a:hover {
-        color: #be9b7b;
-        text-shadow: -1px 1px 1px #4b3832;
+        color: #6b6a6a;
+        text-shadow: -1px 1px 1px #424242;
         text-decoration: none; }
     body .sidebar img {
       width: 10vw;
       margin: 7.5vh 0 7.5vh 0;
       border-radius: 50%;
-      box-shadow: -2px -2px 5px #4b3832; }
+      box-shadow: -2px -2px 5px #a8a6a6; }
   body .menubutton {
     visibility: hidden;
     cursor: unset; }
@@ -124,19 +167,33 @@ body {
   font-style: normal;
   font-display: block; }
 
+@font-face {
+  font-family: "Star Jedi";
+  src: url("../fonts/Starjedi.woff") format("woff"), url("../fonts/Starjedi.woff2") format("woff2"), url("../fonts/Starjedi.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block; }
+
+@font-face {
+  font-family: "Staatliches Regular";
+  src: url("../fonts/Staatliches-Regular.woff") format("woff"), url("../fonts/Staatliches-Regular.woff2") format("woff2"), url("../fonts/Staatliches-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block; }
+
 .skills {
   font-size: 6vw;
   text-align: center;
-  color: #4b3832;
+  color: #a8a6a6;
   cursor: default; }
   .skills i:hover {
-    text-shadow: -1px 1px 3px #be9b7b;
-    color: #662a28; }
+    text-shadow: -1px 1px 5px #000000;
+    color: #6b6a6a; }
 
 @media only screen and (max-width: 600px) {
   body {
     margin: 0;
-    background-color: #d6d3f0; }
+    background-color: #424242; }
     body .sidebar {
       height: 16vw;
       width: 100vw;
@@ -144,7 +201,7 @@ body {
       z-index: 30; }
       body .sidebar .menubutton {
         font-size: 10vw;
-        color: #d6d3f0;
+        color: #a8a6a6;
         position: fixed;
         margin: 2.5vw 3vw;
         visibility: visible; }
@@ -152,13 +209,13 @@ body {
         font-size: 10vw;
         position: absolute;
         width: 100vw;
-        background: #995654; }
+        background: #000000; }
       body .sidebar li {
         margin: 5vw;
         display: block; }
         body .sidebar li a:hover {
-          color: #662a28;
-          text-shadow: -1px 1px 3px #854442; }
+          color: #7f1a20;
+          text-shadow: -1px 1px 3px #7f1a20; }
       body .sidebar .active {
         display: block; }
       body .sidebar .list {

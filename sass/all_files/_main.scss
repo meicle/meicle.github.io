@@ -3,7 +3,7 @@
 
 body {
     margin: 0 20wv 0 0;
-    background-color: $cinza;
+    background-color: $cinza_escuro;
     
     .sidebar {
         text-align: center;
@@ -14,17 +14,19 @@ body {
         flex-direction: column;
         width: 20vw;
         height: 100vh;
-        background-color: $vinho;
+        background-image: url('../images/darksky.png');
+        background-repeat: repeat;
+        box-shadow: 0 0 50px 0 $preto;
         
         ul {
-            font: 3vw $main-font;
+            font: 2vw $star-wars;
             position: static;
             list-style-type: none;
             text-align: center;
             padding:0;
             margin: 0;
             color: $cinza;
-            text-shadow: -1px 1px $bege;
+            text-shadow: -1px 1px $cinza_escuro;
         }
         
         li {
@@ -38,8 +40,8 @@ body {
                 }
                 
                 &:hover {
-                    color: $bege;
-                    text-shadow: -1px 1px 1px $marrom;
+                    color: $cinza_medio;
+                    text-shadow: -1px 1px 1px $cinza_escuro;
                     text-decoration: none;
                 }
             }
@@ -49,7 +51,7 @@ body {
             width: 10vw;
             margin: 7.5vh 0 7.5vh 0;
             border-radius: 50%;
-            box-shadow: -2px -2px 5px $marrom;
+            box-shadow: -2px -2px 5px $cinza;
         }
     }
     .menubutton {

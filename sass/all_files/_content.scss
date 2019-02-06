@@ -5,36 +5,35 @@
     margin: 0 0 0 20vw;
     
     h1 {
-        font: 5vw $main-font;
+        font: 5vw $star-wars;
         text-align: center;
-        color: $vermelho;
+        color: $quase_preto;
         margin: 1vw 0 1vw 0;
-        text-shadow: -1px 1px $bege;
+        text-shadow: -1px 1px 10px $cinza_medio;
     }
     
     h4 {
-        font: 2vw $main-font;
+        font: 2vw $star-wars;
         text-align: center;
         margin: 0;
-        color: $vermelho;
-        text-shadow: -1px 1px $bege;
+        color: $quase_preto;
+        text-shadow: -1px 1px 10px $cinza_medio;
     }
     
     p {
-        font: 1.8vw $secondary-font;
-        color: $marrom;
+        font: 1.8vw $p-font;
+        color: $cinza;
         padding: 0 5vw 0 5vw;
         text-align: justify;
     }
     
     .icones {
-        color: $vermelho;
-        text-shadow: -1px 1px 3px $bege;
+        text-shadow: -1px 1px 10px $cinza_medio;
         text-align: center;
         font-size: 4vw;
         
         a {
-            color: $vermelho;
+            color: $quase_preto;
         }
     }
     

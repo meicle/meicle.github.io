@@ -1,4 +1,4 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
     body {
         margin: 0;
         background-color: $cinza_escuro;
@@ -63,17 +63,34 @@
             }
             
             p {
-                font-size: 6vw;
+                font-size: 5vw;
                 margin: 0;
             }
-
+            
             .center_p {
                 text-align: justify;
             }
-
+            
             .icones {
-                margin: 3vw 0 0 0;
+                margin: 3vw 0;
                 font-size: 13vw;
+            }
+
+            .grid-container {
+                margin: 0;
+                grid-template-columns: auto;
+            }
+            
+            .grid-item {
+                padding: 0;
+                margin: 2vw 5vw;
+                height: 20vw;
+                width: 80vw;
+                border-radius: 10px; 
+                
+                a {
+                    font-size: 8vw;
+                }
             }
         }
         

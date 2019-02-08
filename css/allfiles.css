@@ -35,18 +35,16 @@
     margin: 1vw 0 1vw 0;
     text-shadow: -1px 1px 10px #6b6a6a; }
   .content h4 {
-    font: 2vw "Star Jedi";
+    font: 1.5vw "Star Jedi";
     text-align: center;
     margin: 0;
-    color: #232323;
-    text-shadow: -1px 1px 10px #6b6a6a; }
+    color: #232323; }
   .content p {
     font: 1.8vw "Staatliches Regular";
     color: #a8a6a6;
     padding: 0 5vw 0 5vw;
     text-align: justify; }
   .content .icones {
-    text-shadow: -1px 1px 10px #6b6a6a;
     text-align: center;
     font-size: 4vw; }
     .content .icones a {
@@ -190,7 +188,7 @@ body {
     text-shadow: -1px 1px 5px #000000;
     color: #6b6a6a; }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   body {
     margin: 0;
     background-color: #424242; }
@@ -231,16 +229,75 @@ body {
       body .content h4 {
         font-size: 8vw; }
       body .content p {
-        font-size: 6vw;
+        font-size: 5vw;
         margin: 0; }
       body .content .center_p {
         text-align: justify; }
       body .content .icones {
-        margin: 3vw 0 0 0;
+        margin: 3vw 0;
         font-size: 13vw; }
+      body .content .grid-container {
+        margin: 0;
+        grid-template-columns: auto; }
+      body .content .grid-item {
+        padding: 0;
+        margin: 2vw 5vw;
+        height: 20vw;
+        width: 80vw;
+        border-radius: 10px; }
+        body .content .grid-item a {
+          font-size: 8vw; }
     body .opaque-content {
       opacity: 0.2;
       transition: opacity 100ms ease-in-out; }
     body .skills {
       font-size: 15vw;
       margin: 4vw 2vw 0 2vw; } }
+
+@font-face {
+  font-family: "Creepster";
+  src: url("../fonts/Creepster-Regular.woff") format("woff"), url("../fonts/Creepster-Regular.woff2") format("woff2"), url("../fonts/Creepster-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block; }
+
+@font-face {
+  font-family: "Averia Libre";
+  src: url("../fonts/AveriaSerifLibre-Regular.woff") format("woff"), url("../fonts/AveriaSerifLibre-Regular.woff2") format("woff2"), url("../fonts/AveriaSerifLibre-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block; }
+
+@font-face {
+  font-family: "Star Jedi";
+  src: url("../fonts/Starjedi.woff") format("woff"), url("../fonts/Starjedi.woff2") format("woff2"), url("../fonts/Starjedi.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block; }
+
+@font-face {
+  font-family: "Staatliches Regular";
+  src: url("../fonts/Staatliches-Regular.woff") format("woff"), url("../fonts/Staatliches-Regular.woff2") format("woff2"), url("../fonts/Staatliches-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block; }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto; }
+
+.grid-item {
+  display: inline-grid;
+  text-align: center;
+  align-items: center;
+  margin: 1vw 1vw 0 0;
+  width: 19vw;
+  height: 7vw;
+  background-color: #232323;
+  border-radius: 10px;
+  transition: all 1s ease-in-out; }
+  .grid-item :hover {
+    transform: scale(1.1); }
+  .grid-item a {
+    color: #a8a6a6;
+    font: 2vw "Staatliches Regular"; }

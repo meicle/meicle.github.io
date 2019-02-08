@@ -1,0 +1,28 @@
+@import 'fonts';
+@import 'colors';
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.grid-item {
+    display: inline-grid;
+    text-align: center;
+    align-items: center;
+    margin: 1vw 1vw 0 0;
+    width: 19vw;
+    height: 7vw;
+    background-color: $quase-preto;
+    border-radius: 10px;
+    transition: all 1s ease-in-out; 
+
+    :hover {
+        transform: scale(1.1);
+    }
+
+    a {
+        color: $cinza;
+        font: 2vw $p-font;
+    }
+}

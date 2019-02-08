@@ -10,6 +10,9 @@ $(function(){
   $( "#skills" ).click(function() {
     $('#content').load('skills.html');
   });
+  $( "#favorites" ).click(function() {
+    $('#content').load('favorites.html');
+  });
   
   $( ".item" ).click(function() {
     if ($( window ).width() < 600) {

@@ -1,0 +1,29 @@
+body {
+background-color: #d1d1d1;
+}
+
+.main-header {
+    height: 15vh;
+}
+
+.main-header-photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 10vw;
+    border-radius: 50%;
+    border: 3px solid #9c9c9c;
+    padding: 4px;
+    margin-top: 2.5vh;
+    filter: grayscale(1);
+}
+
+.main-header-photo:hover{
+    filter: unset;
+}
+
+.main-header-title {
+    font: bold 3em 'Cinzel Decorative';
+    color: #9c9c9c;
+    text-align: center;
+}

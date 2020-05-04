@@ -1,5 +1,5 @@
 body {
-background-color: #d1d1d1;
+background-color: rgb(17, 17, 17);
 }
 
 .main-header {
@@ -12,18 +12,40 @@ background-color: #d1d1d1;
     margin-right: auto;
     height: 10vw;
     border-radius: 50%;
-    border: 3px solid #9c9c9c;
+    border: 3px solid rgb(184, 39, 51);
     padding: 4px;
     margin-top: 2.5vh;
-    filter: grayscale(1);
-}
-
-.main-header-photo:hover{
-    filter: unset;
 }
 
 .main-header-title {
     font: bold 3em 'Cinzel Decorative';
-    color: #9c9c9c;
+    color: rgb(184, 39, 51);
     text-align: center;
+}
+
+.social {
+    display: block;
+    margin: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 5% 5% 5%;
+    justify-content: center;
+    margin: 20vh 0 0 0%;
+}
+
+.social-li {
+    color: #fff;
+    list-style: none;
+    margin-top: 5vh;
+}
+
+.social-li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.social-li:hover {
+    transform: scale(1.2);
 }

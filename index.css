@@ -1,15 +1,10 @@
 @font-face {
     font-family: homemade;
-    src: url('HomemadeApple.ttf');
+    src: url('./fonts/HomemadeApple.ttf');
 }
 @font-face {
     font-family: marker;
-    src: url('PermanentMarker.ttf');
-}
-
-@font-face {
-    font-family: sophia;
-    src: url('Sophia.ttf');
+    src: url('./fonts/PermanentMarker.ttf');
 }
 
 body {
@@ -59,7 +54,6 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding-left: 2.5vw;
-    /*padding-top: 25%;*/
 }
 
 p {
